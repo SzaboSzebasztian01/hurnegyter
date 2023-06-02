@@ -1,5 +1,12 @@
 public class App {
+
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+
+        Hur hur = new Hur();
+        double area = hur.calcArea(130, 135, 140, 145);
+
+        System.out.println("Terület: " + area);
+
     }
+
 }
